@@ -27,14 +27,14 @@ exports.config = {
   
     capabilities: [
       {
-        alwaysMatch:{
-
+      "LT:Options":
+        {
         name: "test",
-        build: "Cucumber BDD + Wdio",
+        build: "Craig Tunnel",
         platform : "Windows 10",
         browserName: "chrome",
-        version: "89.0", 
-        geoLocation:"US"
+        version: "90.0", 
+        //geoLocation:"US"
         },
     }
     ],
