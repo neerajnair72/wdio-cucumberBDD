@@ -7,7 +7,7 @@ exports.config = {
       [
         "lambdatest",
         {
-          tunnel: false,
+          tunnel: true,
           lambdatestOpts: {
             logFile: "tunnel.log",
           },
@@ -34,7 +34,6 @@ exports.config = {
         platform : "Windows 10",
         browserName: "chrome",
         version: "90.0", 
-        //geoLocation:"US"
         },
     }
     ],
